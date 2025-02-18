@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React from "react";
 import { GiMedicinePills } from "react-icons/gi";
 import { IoHomeOutline } from "react-icons/io5";
@@ -10,9 +11,31 @@ export const Hotel=()=>{
     return(
         <div style={{border:'1px solid black',width:'450px',height:'800px',display:'flex',flexDirection:'column'}}>
             <div style={{flex:'1',display:'flex'}}>
-                <div style={{flex:'1',backgroundColor:'#f5d2b0',display:'flex',flexDirection:'column'}}>
+                <div style={{flex:'1',backgroundColor:'#528d7b',display:'flex',flexDirection:'column'}}>
+                    <div style={{flex:'2',display:'flex'}}>
+                        <div style={{flex:'1'}}></div>
+                        <div style={{border:'1px solid white',flex:'1',borderRadius:'200px',marginTop:'10px',marginBottom:'10px'}}></div>
+                        <div style={{flex:'5',paddingTop:'20px',marginLeft:'15px'}}>
+                            <a style={{fontFamily:'arial,sans serif',color:'white',fontWeight:'bold',fontSize:'20px'}}>Joana Barros</a><br/>
+                            <a style={{fontFamily:'arial,sans serif'}}>Hotel Guest</a>
+                        </div>
+                        <div style={{border:'1px solid white',flex:'1',borderRadius:'200px',marginTop:'10px',marginBottom:'10px'}}></div>
+                        <div style={{flex:'1'}}></div>
+                    </div>
+                    <div style={{flex:'1'}}>
+                        <a style={{fontFamily:'arial,sans serif',color:'white',fontWeight:'bold',fontSize:'20px',marginLeft:'50px'}}>Recommended for you</a><br/>
+                    </div>1px solid
+                    <div style={{backgroundColor:'white',flex:'3',marginRight:'30px',marginLeft:'30px',borderRadius:'20px',display:'flex'}}>
+                        <div style={{border:'1px solid black',flex:'1',borderRadius:'20px'}}>
+                            <img src="https://th.bing.com/th?q=Swimming+Pool+Lighting+Decor+Ideas&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"width={'140px'}height={'140px'}borderRadius={'20px'}/>
+                        </div>
+                        <div style={{flex:'2'}}>
+                            <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',color:'#bba027'}}>Enjoy same me time</a><br/>
+                            <a style={{fontFamily:'arial,sans serif',fontWeight:'bold',color:'darkgreen'}}>Relax with our massage and<br/>treatments.</a><br/>
+                            <a style={{fontFamily:'arial,sans serif'}}>Spa facilities will close in 4 hours</a>
+                        </div>
+                    </div>
                     <div style={{border:'1px solid red',flex:'1'}}></div>
-                    <div style={{border:'1px solid red',flex:'2'}}></div>
                 </div>
             </div>
             <div style={{flex:'2',display:'flex',flexDirection:'column'}}>
@@ -51,7 +74,7 @@ export const Hotel=()=>{
                             <div style={{flex:'7'}}>
                                 <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Faclities</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'13px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
@@ -60,7 +83,7 @@ export const Hotel=()=>{
                             <div style={{flex:'7'}}>
                                 <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Virtual Key</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'13px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
@@ -69,7 +92,7 @@ export const Hotel=()=>{
                             <div style={{flex:'7'}}>
                                 <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>My Room</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'13px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
@@ -78,7 +101,7 @@ export const Hotel=()=>{
                             <div style={{flex:'7'}}>
                                 <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Order Room Service</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'13px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
