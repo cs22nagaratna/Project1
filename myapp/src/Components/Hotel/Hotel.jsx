@@ -10,7 +10,7 @@ export const Hotel=()=>{
     return(
         <div style={{border:'1px solid black',width:'450px',height:'800px',display:'flex',flexDirection:'column'}}>
             <div style={{flex:'1',display:'flex'}}>
-                <div style={{flex:'1',backgroundColor:'darkgreen',display:'flex',flexDirection:'column'}}>
+                <div style={{flex:'1',backgroundColor:'#f5d2b0',display:'flex',flexDirection:'column'}}>
                     <div style={{border:'1px solid red',flex:'1'}}></div>
                     <div style={{border:'1px solid red',flex:'2'}}></div>
                 </div>
@@ -46,39 +46,39 @@ export const Hotel=()=>{
                         <div style={{flex:'1'}}>
                             <p style={{fontFamily:'arial,sans serif',fontWeight:'bold'}}>All service</p>
                         </div>
-                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                        <div style={{border:'1px solid #bba027',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
                             <div style={{flex:'1'}}></div>
                             <div style={{flex:'7'}}>
-                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Faclities</p>
+                                <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Faclities</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'2',paddingTop:'20px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'180px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
-                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                        <div style={{border:'1px solid #bba027',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
                             <div style={{flex:'1'}}></div>
                             <div style={{flex:'7'}}>
-                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Virtual Key</p>
+                                <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Virtual Key</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'2',paddingTop:'20px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'180px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
-                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                        <div style={{border:'1px solid #bba027',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
                             <div style={{flex:'1'}}></div>
                             <div style={{flex:'7'}}>
-                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>My Room</p>
+                                <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>My Room</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'2',paddingTop:'20px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'180px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
-                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                        <div style={{border:'1px solid #bba027',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
                             <div style={{flex:'1'}}></div>
                             <div style={{flex:'7'}}>
-                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Order Room Service</p>
+                                <p style={{fontFamily:'arial,sans serif',color:'#bba027'}}>Order Room Service</p>
                             </div>
-                            <div style={{paddingLeft:'20px', flex:'2',paddingTop:'20px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'180px',marginRight:'5px'}}>
+                            <div style={{paddingLeft:'20px', flex:'1',paddingTop:'15px',backgroundColor:"darkgreen",borderRadius:'200px',margin:'5px',marginLeft:'100px',marginRight:'5px'}}>
                                 <FaArrowRightLong />
                             </div>
                         </div>
