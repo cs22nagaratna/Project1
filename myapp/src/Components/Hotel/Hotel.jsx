@@ -29,8 +29,79 @@ export const Hotel=()=>{
                         </div>
                     </div>
                 </div>
-                <div style={{border:'1px solid black',flex:'3'}}></div>
-                <div style={{border:'1px solid black',flex:'2'}}></div>
+                <div style={{flex:'3',display:'flex',flexDirection:'row'}}>
+                    <div style={{flex:'1'}}></div>
+                    <div style={{flex:'10',display:'flex',flexDirection:'column'}}>
+                        <div style={{flex:'1'}}>
+                            <p style={{fontFamily:'arial,sans serif',fontWeight:'bold'}}>All service</p>
+                        </div>
+                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                            <div style={{flex:'1'}}></div>
+                            <div style={{flex:'7'}}>
+                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Faclities</p>
+                            </div>
+                            <div style={{flex:'1'}}></div>
+                        </div>
+                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                            <div style={{flex:'1'}}></div>
+                            <div style={{flex:'7'}}>
+                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Virtual Key</p>
+                            </div>
+                            <div style={{flex:'1'}}></div>
+                        </div>
+                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                            <div style={{flex:'1'}}></div>
+                            <div style={{flex:'7'}}>
+                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>My Room</p>
+                            </div>
+                            <div style={{flex:'1'}}></div>
+                        </div>
+                        <div style={{border:'1px solid black',flex:'1',display:'flex',borderRadius:'30px',margin:'5px'}}>
+                            <div style={{flex:'1'}}></div>
+                            <div style={{flex:'7'}}>
+                                <p style={{fontFamily:'arial,sans serif',color:'yellow'}}>Order Room Service</p>
+                            </div>
+                            <div style={{flex:'1'}}></div>
+                        </div>
+                        <div style={{border:'1px solid black',borderBottom:'white', flex:'1',display:'flex',borderRadius:'30px 30px 0 0',marginRight:'5px',marginLeft:'5px'}}>
+                            <div style={{flex:'0.5'}}></div>
+                            <div style={{flex:'1',display:'flex',textAlign:'center',marginTop:'20px'}}>
+                                <a style={{color:'darkgreen',fontSize:'30PX'}}>06</a>
+                            </div>
+                            <div style={{flex:'7'}}>
+                            <a style={{fontFamily:'Arial,sans serif',display:'flex',marginTop:'25px'}}>Acurenulate points with your stay.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{flex:'2',display:'flex',flexDirection:'column'}}>
+                    <div style={{border:'1px solid black',borderTop:'white', flex:'1',display:'flex',borderRadius:'0 0 30px 30px',marginRight:'5px',marginLeft:'45.5px'}}>
+                            <div style={{flex:'0.5'}}></div>
+                            <div style={{flex:'1',display:'flex'}}>
+                                <a style={{fontFamily:'arial,sans serif',color:'darkgreen'}}>points</a>
+                            </div>
+                            <div style={{flex:'7'}}>
+                            <a style={{fontFamily:'Arial,sans serif',display:'flex'}}>Acurenulate points with your stay.</a>
+                            </div>
+                        </div>
+                    <div style={{flex:'2',display:'flex'}}>
+                        <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px'}}></div>
+                        </div>
+                        <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px'}}></div>
+                        </div>
+                        <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px'}}></div>
+                        </div>
+                        <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px'}}></div>
+                        </div>
+                        <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px'}}></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
