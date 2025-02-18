@@ -9,7 +9,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export const Hotel=()=>{
     return(
         <div style={{border:'1px solid black',width:'450px',height:'800px',display:'flex',flexDirection:'column'}}>
-            <div style={{border:'1px solid black',flex:'1'}}></div>
+            <div style={{border:'1px solid black',flex:'1'}}>
+                <div style={{border:'1px solid black',flex:'1'}}></div>
+            </div>
             <div style={{border:'1px solid black',flex:'2',display:'flex',flexDirection:'column'}}>
                 <div style={{border:'1px solid black',flex:'1',display:'flex',flexDirection:'row'}}>
                     <div style={{flex:'1'}}></div>
