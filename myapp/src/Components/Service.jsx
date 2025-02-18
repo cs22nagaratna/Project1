@@ -1,6 +1,8 @@
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaWifi } from "react-icons/fa";
+import { MdContentCopy } from "react-icons/md";
+import { IoIosLock } from "react-icons/io";
 
 export const Service=()=>{
     return(
@@ -40,10 +42,14 @@ export const Service=()=>{
                                 <div style={{border:'1px solid black',flex:'1',borderRadius:'50px',margin:'5px',textAlign:'center'}}></div>
                             </div>
                             <div style={{border:'1px solid black',flex:'1',display:'flex'}}>
-                                <div style={{border:'1px solid black',flex:'1',borderRadius:'50px',margin:'5px',textAlign:'center'}}></div>
+                                <div style={{border:'1px solid black',flex:'1',borderRadius:'50px',margin:'5px',textAlign:'center'}}>
+                                    <IoIosLock />
+                                </div>
                             </div>
                             <div style={{border:'1px solid black',flex:'1',display:'flex'}}>
-                                <div style={{border:'1px solid black',flex:'1',borderRadius:'50px',margin:'5px',textAlign:'center'}}></div>
+                                <div style={{border:'1px solid black',flex:'1',borderRadius:'50px',margin:'5px',textAlign:'center'}}>
+                                    <MdContentCopy />
+                                </div>
                             </div>
                         </div>
                         <div style={{flex:'1.5',display:'flex',marginLeft:'20px'}}>
