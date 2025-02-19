@@ -21,7 +21,9 @@ export const Hotel=()=>{
                 <div style={{flex:'1',backgroundColor:'#528d7b',display:'flex',flexDirection:'column'}}>
                     <div style={{flex:'2',display:'flex'}}>
                         <div style={{flex:'1'}}></div>
-                        <div style={{border:'1px solid white',flex:'1',borderRadius:'200px',marginTop:'10px',marginBottom:'10px'}}></div>
+                        <div style={{border:'1px solid white',flex:'1',borderRadius:'200px',marginTop:'10px',marginBottom:'10px'}}>
+                            <img src="https://media.istockphoto.com/id/612520134/pt/vetorial/girl-icon-cartoon-single-avatar-people-icon.jpg?s=612x612&w=0&k=20&c=coF4TOX4vc0MHtGXZrdGGrq9jVMhpYDAzJXKfE0h8DI="width={'20px'}height={'20px'}/>
+                        </div>
                         <div style={{flex:'5',paddingTop:'20px',marginLeft:'15px'}}>
                             <a style={{fontFamily:'arial,sans serif',color:'white',fontWeight:'bold',fontSize:'20px'}}>Joana Barros</a><br/>
                             <a style={{fontFamily:'arial,sans serif'}}>Hotel Guest</a>
@@ -52,7 +54,7 @@ export const Hotel=()=>{
                     <div style={{flex:'1'}}></div>
                     <div style={{flex:'10',display:'flex',flexDirection:'column'}}>
                         <div style={{flex:'1'}}>
-                            <a style={{fontFamily:'arial,sans serif',color:'darkgreen',fontWeight:'bold',marginTop:'5px'}}>Popular experiences</a>
+                            <p style={{fontFamily:'arial,sans serif',color:'darkgreen',fontWeight:'bold',marginTop:'5px'}}>Popular experiences</p>
                         </div>
                         <div style={{flex:'2',display:'flex',flexDirection:'row'}}>
                             <div style={{border:'1px solid black',flex:'1',display:'flex',flexDirection:'row',borderRadius:'10px',marginRight:'10px'}}>
@@ -157,7 +159,7 @@ export const Hotel=()=>{
                             </div>
                         </div>
                         <div style={{flex:1,display:'flex',marginRight:'9px',marginLeft:'9px'}}>
-                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px',textAlign:'center'}}>
+                            <div style={{border:'1px solid black',flex:'1',borderRadius:'80px',margin:'10px',textAlign:'center',justifyContent:'center'}}>
                             <FaSearch />
                             </div>
                         </div>
