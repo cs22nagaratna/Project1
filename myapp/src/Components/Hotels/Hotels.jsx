@@ -9,6 +9,7 @@ import { FaConciergeBell } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineFlight } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
+import { IoPersonOutline } from "react-icons/io5";
 
 export const Hotels=()=>{
     return(
@@ -64,22 +65,24 @@ export const Hotels=()=>{
                 <div style={{flex:'2',fontFamily:'Arial,sans serif'}}>
                     <p>Warwlck Grand Hotels</p>
                     <a><IoLocationOutline />New Yak</a><br/>
-                    <a style={{}}><CiStar />5.0 (24k)<a style={{marginLeft:'60px'}}>$480/night</a></a>
+                    <a style={{}}><CiStar />5.0 (24k)<a style={{marginLeft:'60px',color:'orange'}}>$480/</a><a>night</a></a>
                 </div>
             </div>
-            <div style={{border:'1px solid black',flex:'1.5',display:'flex',flexDirection:'column',marginLeft:'20px'}}>
-            <div style={{border:'1px solid black',flex:'1',display:'flex'}}>
-                <div style={{border:'1px solid black',flex:'1'}}></div>
-                <div style={{border:'1px solid black',flex:'2'}}>
-                    <a >Water Garder  Int </a>
+            <div style={{flex:'1.5',display:'flex',flexDirection:'column'}}>
+                <div style={{marginLeft:'20px',border:'1px solid black',flex:'1',display:'flex',marginTop:'25px',borderRadius:'20px 20px 0 0'}}>
+                    <div style={{flex:'1',marginLeft:'10px',marginTop:'5px'}}>
+                        <img src="https://i.pinimg.com/474x/79/ba/46/79ba463c09cae3f2543c6b237a11f8d8.jpg"width={'70px'}height={'40px'}/>
+                    </div>
+                    <div style={{flex:'2',fontFamily:'arial,sans serif'}}>
+                        <p>Water Garder  Int </p>
+                    </div>
                 </div>
-            </div>
-                <div style={{border:'1px solid black',flex:'1',display:'flex'}}>
-                    <div style={{border:'1px solid black',flex:'1'}}><IoMdHome /></div>
-                    <div style={{border:'1px solid black',flex:'1'}}><FaRegHeart /></div>
-                    <div style={{border:'1px solid black',flex:'1'}}><CiViewTimeline /></div>
-                    <div style={{border:'1px solid black',flex:'1'}}><BiMessageAltDots /></div>
-                    <div style={{border:'1px solid black',flex:'1'}}></div>
+                <div style={{border:'1px solid white',flex:'1',display:'flex',borderRadius:'0 0 20px 20px'}}>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoMdHome /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><FaRegHeart /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><CiViewTimeline /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><BiMessageAltDots /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoPersonOutline /></div>
                 </div>
             </div>
         </div>
