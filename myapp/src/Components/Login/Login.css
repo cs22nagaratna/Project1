@@ -1,11 +1,41 @@
-.box{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
+.container{
+    width: 500px;
+    height: 800px;
     background-color: green;
+    border-radius: 40px;
 }
-h1{
-    color: white;
+.header1{
+    display: flex;
+}
+.header1 > a{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.search{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
+    margin-left: 330px;
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+.header2>a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-left: 30px;
+}
+.box{
+    display: flex;
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 10px;
 }
