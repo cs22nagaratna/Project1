@@ -78,11 +78,11 @@ export const Hotels=()=>{
                     </div>
                 </div>
                 <div style={{border:'1px solid white',flex:'1',display:'flex',borderRadius:'0 0 20px 20px'}}>
-                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoMdHome /></div>
-                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><FaRegHeart /></div>
-                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><CiViewTimeline /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoMdHome />         </div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><FaRegHeart />       </div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><CiViewTimeline />     </div>
                     <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><BiMessageAltDots /></div>
-                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoPersonOutline /></div>
+                    <div style={{flex:'1',fontSize:'30px',paddingTop:'10px',textAlign:'center'}}><IoPersonOutline />    </div>
                 </div>
             </div>
         </div>

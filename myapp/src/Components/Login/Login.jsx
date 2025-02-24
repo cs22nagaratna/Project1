@@ -4,6 +4,12 @@ import { FaHotel } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineFlight } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import { CiStar } from "react-icons/ci";
+import { IoMdHome } from "react-icons/io";
+import { FaRegHeart } from "react-icons/fa";
+import { IoPersonOutline } from "react-icons/io5";
+import { BiMessageAltDots } from "react-icons/bi";
+import { CiViewTimeline } from "react-icons/ci";
 import { FaConciergeBell } from "react-icons/fa";
 
 const Login=()=>{
@@ -41,7 +47,38 @@ const Login=()=>{
                 <a>See all</a>
             </div>
             <div className='hotel'>
-                
+                <img src='https://i.pinimg.com/736x/53/f2/40/53f240b1941a4d5ecfd179c7091d7d1a.jpg'/>
+                <p>Hotel Royal Blue</p>
+                <a><IoLocationOutline /></a><br/>
+                <a>$480/<a>right<a>4.3(6.8K)</a></a></a>
+            </div>
+            <div className='ho'>
+                <h1>Low Cost Hotels</h1>
+            </div>
+            <div className='content'>
+                <div className='img'>
+                    <img src='https://i.pinimg.com/736x/53/f2/40/53f240b1941a4d5ecfd179c7091d7d1a.jpg'/>
+                </div>
+                <div className='title'>
+                    <h3>Warwick Grand Hotel</h3>
+                    <p><IoLocationOutline />New Yack</p>
+                    <a><CiStar />5.0 (24K)<a>$480/<a>right</a></a></a>
+                </div>
+            </div>
+            <div className='content1'>
+                <div className='img1'>
+                    <img src='https://i.pinimg.com/736x/53/f2/40/53f240b1941a4d5ecfd179c7091d7d1a.jpg'/>
+                </div>
+                <div className='title'>
+                    <h3>Water Garden Int</h3>
+                </div>
+            </div>
+            <div className='content2'>
+                <div className='icon'><IoMdHome /></div>
+                <div className='icon'><FaRegHeart /> </div>
+                <div className='icon'><CiViewTimeline /></div>
+                <div className='icon'><BiMessageAltDots /></div>
+                <div className='icon'><IoPersonOutline /></div>
             </div>
         </div>
     )
