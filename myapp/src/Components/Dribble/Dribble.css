@@ -107,60 +107,68 @@
     height: 830px;
 }
 .c1{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c2{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c3{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c4{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c5{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c6{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c7{
-    height: 100px;
+    height: 98px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
+    border: 1px solid gray;
 }
 .c8{
-    height: 50px;
+    height: 45px;
     width: 220px;
     margin: 10px;
     border-radius: 20px 20px 0 0;
     background-color: white;
+    border: 1px solid gray;
 }
 .last{
     height: 800px;
