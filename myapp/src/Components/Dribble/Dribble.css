@@ -180,7 +180,17 @@
 .first{
     width: 980px;
     height: 100px;
-    background-color: aqua;
+    display: flex;
+}
+.rows1{
+    width: 650px;
+    height: 100px;
+    background-color: darkblue;
+}
+.rows2{
+    width: 330px;
+    height: 100px;
+    background-color: rgb(207, 7, 207);
 }
 .second{
     width: 980px;
@@ -220,6 +230,49 @@
     background-color: goldenrod;
     margin: 5px;
     border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.id{
+    width: 640px;
+    height: 220px;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.t1{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
+}
+.t2{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
+}
+.t3{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
+}
+.t4{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
+}
+.t5{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
+}
+.t6{
+    width: 640px;
+    height: 36px;
+    background-color: aqua;
 }
 .ro2{
     width: 326px;

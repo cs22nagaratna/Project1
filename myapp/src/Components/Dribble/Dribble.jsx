@@ -69,14 +69,26 @@ const Dribble=()=>{
                         <div className="c8"></div>
                     </div>
                     <div className="last">
-                        <div className="first"></div>
+                        <div className="first">
+                            <div className="rows1"></div>
+                            <div className="rows2"></div>
+                        </div>
                         <div className="second">
                             <div className="row1"></div>
                             <div className="row2"></div>
                             <div className="row3"></div>
                         </div>
                         <div className="third">
-                            <div className="ro1"></div>
+                            <div className="ro1">
+                                <div className="id">
+                                    <div className="t1"></div>
+                                    <div className="t2"></div>
+                                    <div className="t3"></div>
+                                    <div className="t4"></div>
+                                    <div className="t5"></div>
+                                    <div className="t6"></div>
+                                </div>
+                            </div>
                             <div className="ro2"></div>
                         </div>
                     </div>
