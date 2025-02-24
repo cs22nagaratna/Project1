@@ -1,0 +1,135 @@
+.container{
+    width: 1400px;
+    height: 1000px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    width: 1300px;
+    height: 900px;
+    background-color: whitesmoke;
+}
+.den{
+    width: 1300px;
+    height: 70px;
+    display: flex;
+}
+.den1{
+    width: 60px;
+    height: 67px;
+    margin-right: 3px;
+}
+.list-customer{
+    height: 67px;
+    width: 1236px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.left{
+    width: 620px;
+    height: 67px;
+    padding-left: 30px;
+    display: flex;
+    font-weight: lighter;
+}
+.left>h3{
+    padding-left: 10px;
+}
+.right{
+    width: 620px;
+    height: 67px;
+    display: flex;
+}
+.l{
+    width: 350px;
+    height: 67px;
+    display: flex;
+    justify-content: end;
+}
+.l>a{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.r{
+    width: 240px;
+    height: 67px;
+}
+
+
+
+.title{
+    width: 1300px;
+    height: 830px;
+    display: flex;
+
+}
+.side-bar{
+    height: 830px;
+    width: 60px;
+    background-color: darkblue;
+}
+.middle{
+    width: 240px;
+    height: 830px;
+}
+.last{
+    height: 800px;
+    width: 980px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.first{
+    width: 980px;
+    height: 100px;
+    background-color: aqua;
+}
+.second{
+    width: 980px;
+    height: 380px;
+    display: flex;
+}
+.row1{
+    width: 326px;
+    height: 365px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.row2{
+    width: 326px;
+    height: 365px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+.row3{
+    width: 326px;
+    height: 365px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+}
+.third{
+    width: 980px;
+    height: 300px;
+    display: flex;
+}
+.ro1{
+    width: 652px;
+    height: 290px;
+    background-color: goldenrod;
+    margin: 5px;
+    border-radius: 20px;
+}
+.ro2{
+    width: 326px;
+    height: 290px;
+    background-color: palegreen;
+    margin: 5px;
+    border-radius: 20px;
+}
