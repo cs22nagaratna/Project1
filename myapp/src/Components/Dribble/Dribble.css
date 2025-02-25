@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial,  sans-serif
 }
 .sub-container{
     width: 1300px;
@@ -230,7 +231,7 @@
 .last{
     height: 800px;
     width: 980px;
-    background-color: pink;
+    background-color: white;
     border-radius: 20px;
     margin-top: 15px;
 }
@@ -242,13 +243,33 @@
 .rows1{
     width: 650px;
     height: 100px;
-    background-color: darkblue;
+    font-family: Arial,  sans-serif;
+    display: flex;
+}
+.i1{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.co{
+    width: 600px;
+    height: 90px;
 }
 .rows2{
     width: 330px;
     height: 100px;
-    background-color: rgb(207, 7, 207);
 }
+.rows2>button{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
 .second{
     width: 980px;
     height: 380px;
@@ -257,11 +278,55 @@
 .row1{
     width: 326px;
     height: 365px;
-    background-color: black;
+    border: 1px solid gray;
     margin-bottom: 20px;
     margin: 10px;
     border-radius: 20px;
+    padding-left: 20px;
 }
+.cele1{
+    width: 326px;
+    height: 52px;
+    
+}
+.cele2{
+    width: 326px;
+    height: 60px;
+    display: flex;
+}
+.bir{
+    width: 40px;
+    height: 60px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.brc{
+    width: 270px;
+    height: 60px;
+}
+.brc>a{
+    margin-top: 10px;
+}
+.cele3{
+    width: 326px;
+    height: 60px;
+    display: flex;
+}
+.cele4{
+    width: 326px;
+    height: 60px;display: flex;
+}
+.cele5{
+    width: 326px;
+    height: 60px;
+    display: flex;
+}
+.cele6{
+    width: 326px;
+    height: 60px;
+    display: flex;
+}
+
 .row2{
     width: 326px;
     height: 365px;
@@ -284,11 +349,12 @@
 .ro1{
     width: 652px;
     height: 290px;
-    background-color: goldenrod;
+    background-color: white;
     margin: 5px;
     border-radius: 20px;
     justify-content: end;
     align-items: end;
+    border: 1px solid gray;
 }
 .id{
     width: 620px;
@@ -365,7 +431,74 @@
 .ro2{
     width: 326px;
     height: 290px;
-    background-color: palegreen;
+    border: 1px solid gray;
     margin: 5px;
     border-radius: 20px;
+}
+.column1{
+    width: 326px;
+    height: 55px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+.column1>h3>a{
+    padding-left: 60px;
+}
+.column2{
+    width: 306px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    font-family: Arial,  sans-serif;
+    border-radius: 10px;
+}
+.pdf{
+    width: 50px;
+    height: 40px;
+    margin-top: 5px;
+    
+    font-size: 25px;
+}
+.arg{
+    width: 200px;
+    height: 40px;
+    text-align: start;
+}
+.moon{
+    width: 50px;
+    height: 40px;
+    
+    font-size: 25px;
+}
+.column3{
+    width: 306px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial,  sans-serif;
+    display: flex;
+    border-radius: 10px;
+}
+.column4{
+    width: 306px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font-family: Arial,  sans-serif;
+    border-radius: 10px;
+}
+.column5{
+    width: 306px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    font-family: Arial,  sans-serif;
+    border-radius: 10px;
 }

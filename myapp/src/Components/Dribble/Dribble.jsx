@@ -14,6 +14,20 @@ import { BiDockTop } from "react-icons/bi";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { BsThreeDots } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa6";
+import { FaRegFilePdf } from "react-icons/fa";
+import { LiaCloudMoonSolid } from "react-icons/lia";
+import { MdOutlineMail } from "react-icons/md";
+import { IoCallOutline } from "react-icons/io5";
+import { CiMobile2 } from "react-icons/ci";
+import { LuVideo } from "react-icons/lu";
+import { FiEdit } from "react-icons/fi";
+import { BsGenderFemale } from "react-icons/bs";
+import { LiaBirthdayCakeSolid } from "react-icons/lia";
+import { LiaVectorSquareSolid } from "react-icons/lia";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+
 
 const Dribble=()=>{
     return(
@@ -84,7 +98,7 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Jerome Bellingham</a></div>
                             <div className="regi">Register 12 March 2023<a><FaArrowRight /></a></div>
                         </div>
                         <div className="c4">
@@ -94,7 +108,7 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Dariene Robertson</a></div>
                             <div className="regi">Register 12 March 2023<a><FaArrowRight /></a></div>
                         </div>
                         <div className="c5">
@@ -104,7 +118,7 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Albert Flores</a></div>
                             <div className="regi">Register 12 March 2023<a><FaArrowRight /></a></div>
                         </div>
                         <div className="c6">
@@ -114,7 +128,7 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Savennah Nguyen</a></div>
                             <div className="regi">Register 12 March 2023<a><FaArrowRight /></a></div>
                         </div>
                         <div className="c7">
@@ -124,7 +138,7 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Jenny Wilson</a></div>
                             <div className="regi">Register 12 March 2023<a><FaArrowRight /></a></div>
                         </div>
                         <div className="c8">
@@ -134,16 +148,64 @@ const Dribble=()=>{
                                 </div>
                                 <div className="m"><BsThreeDots /></div>
                             </div>
-                            <div className="name"><a>Bessie Cooper</a></div>
+                            <div className="name"><a>Kathryn Murphy</a></div>
                         </div>
                     </div>
                     <div className="last">
                         <div className="first">
-                            <div className="rows1"></div>
-                            <div className="rows2"></div>
+                            <div className="rows1">
+                                <div className="i1">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnGlVp7nfRMzurVLU4dWxr96FP-OUcEmpSYA&s"width={'60px'}height={'60px'}/>
+                                </div>
+                                <div className="co">
+                                    <h3>Jerome Bellingham     <button>MEMBER</button></h3>
+                                    <a>Joined Since :12 March 2023</a>
+                                </div>
+                            </div>
+                            <div className="rows2">
+                                <button><MdOutlineMail /></button>
+                                <button><IoCallOutline /></button>
+                                <button><CiMobile2 /></button>
+                                <button><LuVideo /></button>
+                                <button><FiEdit /></button>
+                            </div>
                         </div>
                         <div className="second">
-                            <div className="row1"></div>
+                            <div className="row1">
+                                <div className="cele1">
+                                    <h3>Basic Informational</h3>
+                                </div>
+                                <div className="cele2">
+                                    <div className="bir"><BsGenderFemale /></div>
+                                    <div className="brc">
+                                        <a>Gender</a><br/>Male
+                                    </div>
+                                </div>
+                                <div className="cele3">
+                                    <div className="bir"><LiaBirthdayCakeSolid /></div>
+                                    <div className="brc">
+                                    <a>Birthday</a><br/>12 August 2001
+                                    </div>
+                                </div>
+                                <div className="cele4">
+                                    <div className="bir"><CiMobile2 /></div>
+                                    <div className="brc">
+                                    <a>Phone Number</a><br/>+62 837 356 343 23
+                                    </div>
+                                </div>
+                                <div className="cele5">
+                                    <div className="bir"><MdOutlineMail /></div>
+                                    <div className="brc">
+                                    <a>Email</a><br/>jeromebeilingham93@gmail.com
+                                    </div>
+                                </div>
+                                <div className="cele6">
+                                    <div className="bir"><LiaVectorSquareSolid /></div>
+                                    <div className="brc">
+                                    <a>Sources</a><br/><button> <FcGoogle /></button>  <button><FaTelegramPlane /> </button> <button><FaWhatsapp /></button>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="row2"></div>
                             <div className="row3"></div>
                         </div>
@@ -166,7 +228,7 @@ const Dribble=()=>{
                                         <div className="d3">Implant</div>
                                         <div className="d4">12 Jun 2023</div>
                                         <div className="d5">Well done</div>
-                                        <div className="d6">Pending</div>
+                                        <div className="d6"><button>Pending</button></div>
                                         <div className="d7"><BsThreeDots /></div>
                                     </div>
                                     <div className="t3">
@@ -175,7 +237,7 @@ const Dribble=()=>{
                                         <div className="d3">Route canal</div>
                                         <div className="d4">4 May 2023</div>
                                         <div className="d5">Well done</div>
-                                        <div className="d6">Paid</div>
+                                        <div className="d6"><button>Paid</button></div>
                                         <div className="d7"><BsThreeDots /></div>
                                     </div>
                                     <div className="t4">
@@ -184,7 +246,7 @@ const Dribble=()=>{
                                         <div className="d3">Dentures</div>
                                         <div className="d4">2 Mar 2023</div>
                                         <div className="d5">Well done</div>
-                                        <div className="d6">Paid</div>
+                                        <div className="d6"><button>Paid</button></div>
                                         <div className="d7"><BsThreeDots /></div>
                                     </div>
                                     <div className="t5">
@@ -193,7 +255,7 @@ const Dribble=()=>{
                                         <div className="d3">Whitening</div>
                                         <div className="d4">16 Feb 2023</div>
                                         <div className="d5">Well done</div>
-                                        <div className="d6">Paid</div>
+                                        <div className="d6"><button>Paid</button></div>
                                         <div className="d7"><BsThreeDots /></div>
                                     </div>
                                     <div className="t6">
@@ -202,12 +264,34 @@ const Dribble=()=>{
                                         <div className="d3">Implant</div>
                                         <div className="d4">12 Jun 2023</div>
                                         <div className="d5">Well done</div>
-                                        <div className="d6">Paid</div>
+                                        <div className="d6"><button>Paid</button></div>
                                         <div className="d7"><BsThreeDots /></div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="ro2"></div>
+                            <div className="ro2">
+                                <div className="column1"><h3>Agreement of document<a><BsThreeDots /></a></h3></div>
+                                <div className="column2">
+                                    <div className="pdf"><FaRegFilePdf /></div>
+                                    <div className="arg"><a>Agreement_Meditation.zip<br/>2.3mb</a></div>
+                                    <div className="moon"><LiaCloudMoonSolid /></div>
+                                </div>
+                                <div className="column3">
+                                    <div className="pdf"><FaRegFilePdf /></div>
+                                    <div className="arg"><a>Provision of information.pdf<br/>2.3mb</a></div>
+                                    <div className="moon"><LiaCloudMoonSolid /></div>
+                                </div>
+                                <div className="column4">
+                                    <div className="pdf"><FaRegFilePdf /></div>
+                                    <div className="arg"><a>Agreement_Meditation.zip<br/>2.3mb</a></div>
+                                    <div className="moon"><LiaCloudMoonSolid /></div>
+                                </div>
+                                <div className="column5">
+                                    <div className="pdf"><FaRegFilePdf /></div>
+                                    <div className="arg"><a>Provision of information.pdf<br/>2.3mb</a></div>
+                                    <div className="moon"><LiaCloudMoonSolid /></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
