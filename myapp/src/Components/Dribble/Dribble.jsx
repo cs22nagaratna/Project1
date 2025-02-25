@@ -206,8 +206,57 @@ const Dribble=()=>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="row2"></div>
-                            <div className="row3"></div>
+
+
+
+
+
+                            
+                            <div className="row2">
+                            <div className="card">
+                <h3>Appointment Schedule</h3>
+                <div className="appointment">
+                    <p><strong>12 Oct 2023</strong></p>
+                    <p>Prosthetic Tooth Fabrication - <em>Dr. Wade Warren</em></p>
+                </div>
+                <div className="appointment">
+                    <p><strong>12 Sep 2023</strong></p>
+                    <p>Post-Surgical Care - <em>Dr. Marvin McKinney</em></p>
+                </div>
+                <div className="appointment">
+                    <p><strong>12 Aug 2023</strong></p>
+                    <p>Implant Placement - <em>Dr. Floyd Miles</em></p>
+                </div>
+            </div>
+                            </div>
+                            <div className="row3">
+                            <div className="card status-card">
+                <h3>Data of Assurance</h3>
+                <p><strong>234-234-232-32</strong></p>
+                <p>Expiry: 23/04/2024</p>
+                <p>Status: Activated</p>
+            </div>
+            <div className="card">
+                <div className="membership">
+                    <div>
+                        <h3>Member Dentalica</h3>
+                        <p>Start Date Joined: 12 Dec 2023</p>
+                        <p>32 Days</p>
+                    </div>
+                    <button className="extend-button">Extend</button>
+                </div>
+            </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
                         </div>
                         <div className="third">
                             <div className="ro1">
