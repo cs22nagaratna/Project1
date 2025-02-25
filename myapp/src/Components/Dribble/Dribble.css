@@ -20,6 +20,8 @@
     width: 60px;
     height: 67px;
     margin-right: 3px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 .list-customer{
     height: 67px;
@@ -27,6 +29,11 @@
     display: flex;
     font-family: Arial, sans-serif;
     background-color: white;
+    border-bottom: 1px solid gray;
+}
+.list-customer>a{
+    padding-top: 57px;
+    font-size: 20px;padding-right: 5px;
 }
 .left{
     width: 620px;
@@ -90,6 +97,7 @@
     width: 60px;
     background-color: white;
     text-align: center;
+    border-right: 1px solid gray;
 }
 .side-bar1{
     width: 60px;
@@ -110,65 +118,114 @@
     height: 98px;
     width: 220px;
     margin: 10px;
-    border-radius: 20px;
-    background-color: white;
-    border: 1px solid gray;
+    font-family: Arial, sans-serif;
+    
+}
+.c1>p{
+   font-size: 20px;
+}
+.c1>p>a{
+    padding-left: 70px;
+}
+.c1>a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .c2{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
+}
+.img1{
+    width: 220px;
+    height: 32px;
+    display: flex;
+}
+.g{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.m{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 130px;
+}
+.name{
+    width: 220px;
+    height: 30px;
+    padding-left: 15px;
+}
+.regi{
+    width: 220px;
+    height: 30px;
+    padding-left: 15px;
+}
+.regi>a{
+    padding-left: 15px;
 }
 .c3{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .c4{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .c5{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .c6{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .c7{
-    height: 98px;
+    height: 96px;
     width: 220px;
     margin: 10px;
     border-radius: 20px;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .c8{
-    height: 45px;
+    height: 50px;
     width: 220px;
     margin: 10px;
     border-radius: 20px 20px 0 0;
     background-color: white;
     border: 1px solid gray;
+    font-family: Arial,  sans-serif;
 }
 .last{
     height: 800px;
@@ -230,12 +287,11 @@
     background-color: goldenrod;
     margin: 5px;
     border-radius: 20px;
-    display: flex;
     justify-content: end;
     align-items: end;
 }
 .id{
-    width: 640px;
+    width: 620px;
     height: 220px;
     background-color: white;
     margin-bottom: 15px;
@@ -245,34 +301,66 @@
     border: 1px solid gray;
 }
 .t1{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
+}
+.d1{
+    width: 80px;
+    height: 36px;
+}
+.d2{
+    width: 50px;
+    height: 36px;
+}
+.d3{
+    width: 100px;
+    height: 36px;
+}
+.d4{
+    width: 100px;
+    height: 36px;
+}
+.d5{
+    width: 120px;
+    height: 36px;
+}
+.d6{
+    width: 110px;
+    height: 36px;
+}
+.d7{
+    width: 50px;
+    height: 36px;
 }
 .t2{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
+    border: 1px solid gray;
 }
 .t3{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
+    border: 1px solid gray;
 }
 .t4{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
+    border: 1px solid gray;
 }
 .t5{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
+    border: 1px solid gray;
 }
 .t6{
-    width: 640px;
+    width: 620px;
     height: 36px;
-    background-color: aqua;
+    display: flex;
 }
 .ro2{
     width: 326px;
