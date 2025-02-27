@@ -276,7 +276,7 @@
     display: flex;
 }
 .row1{
-    width: 326px;
+    width: 300px;
     height: 365px;
     border: 1px solid gray;
     margin-bottom: 20px;
@@ -333,14 +333,25 @@
     background-color: white;
     margin: 10px;
     border-radius: 20px;
+    border: 1px solid gray;
 }
-.row3{
-    width: 326px;
-    height: 365px;
-    background-color: black;
-    margin: 10px;
-    border-radius: 20px;
+.row2>h3{
+    padding-left: 20px;
 }
+.card{
+    margin-left: 20px;
+    border-left: 2px dashed blue;
+    padding-left: 30px;
+}
+.appo{
+    width: 220px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-top: 5px;
+   
+}
+
 .third{
     width: 980px;
     height: 300px;
@@ -429,23 +440,23 @@
     display: flex;
 }
 .ro2{
-    width: 326px;
+    width: 300px;
     height: 290px;
     border: 1px solid gray;
     margin: 5px;
     border-radius: 20px;
 }
 .column1{
-    width: 326px;
+    width: 300px;
     height: 55px;
     padding-left: 10px;
     font-family: Arial, sans-serif;
 }
 .column1>h3>a{
-    padding-left: 60px;
+    padding-left: 40px;
 }
 .column2{
-    width: 306px;
+    width: 280px;
     height: 40px;
     border: 1px solid black;
     margin-left: 10px;
@@ -455,7 +466,7 @@
     border-radius: 10px;
 }
 .pdf{
-    width: 50px;
+    width: 45px;
     height: 40px;
     margin-top: 5px;
     
@@ -467,13 +478,13 @@
     text-align: start;
 }
 .moon{
-    width: 50px;
+    width: 40px;
     height: 40px;
     
     font-size: 25px;
 }
 .column3{
-    width: 306px;
+    width: 280px;
     height: 40px;
     border: 1px solid black;
     margin: 10px;
@@ -483,7 +494,7 @@
     border-radius: 10px;
 }
 .column4{
-    width: 306px;
+    width: 280px;
     height: 40px;
     border: 1px solid black;
     margin: 10px;
@@ -493,7 +504,7 @@
     border-radius: 10px;
 }
 .column5{
-    width: 306px;
+    width: 280px;
     height: 40px;
     border: 1px solid black;
     margin: 10px;
@@ -503,14 +514,14 @@
     border-radius: 10px;
 }
 
-.card {
+/* .card {
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .appointment {
-    border-left: 3px solid blue;
+    border-left: 3px dashed blue;
     padding-left: 10px;
     margin-bottom: 15px;
 }
@@ -533,4 +544,82 @@
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+} */
+.row3{
+    width: 326px;
+    height: 365px;
+    border-radius: 20px;
+}
+.subcard{
+    width: 300px;
+    height: 180px;
+    background:  linear-gradient(to right,  #2575fc,#6a11cb);
+    border-radius: 20px;
+}
+.subcard>a{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+.subcard>a>a{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.subcard>h2{
+    padding-left: 80px;
+    padding-top: 30px;
+    color: white;
+}
+.sub-card{
+    width: 300px;
+    height: 180px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.sub-card>a{
+    padding-left: 30px;
+    font-weight: bold;
+}
+.box{
+    width: 323px;
+    height: 50px;
+    display: flex;
+    color: white;
+}
+.box1{
+    width: 160px;
+    height: 50px;
+    padding-left: 30px;
+}
+.box2{
+    width: 160px;
+    height: 50px;
+}
+.day{
+    width: 210px;
+    height: 100px;
+    display: flex;
+    margin-top: 50px;
+}
+.day1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.da{
+    width: 110px;
+    height: 100px;
+}
+.da>a{
+    font-size: 13px;
+    color: gray;
+}
+.da>a>a{
+    color: rgb(0, 0, 0);
+}
+.da>p>button{
+    margin-left: 25px;
 }
