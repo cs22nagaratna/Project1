@@ -7,7 +7,17 @@
     width: 100%;
     max-width: 500px;
     height: 100px;
+    display: flex;
     border: 1px solid black;
+    padding-left: 50px;
+}
+.first>button{
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+    font-size: 30px;margin: 10px;
+    border-radius: 10px;
+    
 }
 .second{
     width: 100%;
@@ -20,7 +30,6 @@
 }
 .second>h2{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -57,4 +66,73 @@
     border: 1px solid black;
     margin: 10px;
     border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.left{
+    width: 100%;
+    max-width: 320px;
+}
+.left>h2{
+    padding-left: 30px;
+}
+.box{
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    display: flex;
+}
+.box1{
+    width: 100%;
+    max-width: 160px;
+    height: 160px;
+    margin-top: 20px;
+}
+.progress-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#4DBFFF 0% 60%, #EAEAEA 30% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.d{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50px;
+}
+.d>p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.box2{
+    width: 100%;
+    max-width: 160px;
+    height: 150px;
+    margin-top: 30px;
+}
+.box2>a{
+    font-size: 20px;
+    color: gray;
+}
+.box2>button{
+    border-radius: 5px;
+    width: 100%;
+    max-width: 80px;
+    height: 30px;
+}
+.right{
+    width: 100%;
+    max-width: 170px;
+    height: 150px;
+    margin-top: 20px;
 }
