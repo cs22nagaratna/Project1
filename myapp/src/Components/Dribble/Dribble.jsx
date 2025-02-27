@@ -241,14 +241,19 @@ const Dribble=()=>{
                                     </div>
                                 </div>
                                 <div className="sub-card">
-                                    <a>Member Dentalica</a>
-                                    <div className="day">
-                                        <div className="day1"></div>
-                                        <div className="da">
-                                            <a>Start Date Joined</a><br/>
-                                            <a>12 Des 2023</a>
-                                            <p><button>Extend</button></p>
+                                    <div className="lefti">
+                                        <a>Member Dentalica</a>
+                                        <div className="day">
+                                            <div className="day1"></div>
+                                            <div className="da">
+                                                <a>Start Date Joined</a><br/>
+                                                <a>12 Des 2023</a>
+                                                <p><button>Extend</button></p>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div className="righti">
+                                        <img src="https://belmont-dental.com/wp-content/uploads/2025/01/Invisalign-1-1.jpg"width={'90px'}height={'100px'}/>
                                     </div>
                                 </div>
                              </div>
