@@ -653,7 +653,6 @@
     width: 100%;
     max-width: 100px;
     height: 100px;
-    border: 1px solid black;
 }
 
 .da{
@@ -675,4 +674,27 @@
     width: 100%;
     max-width: 90px;
     height: 100px;
+}
+.progress-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#4DBFFF 0% 60%, #EAEAEA 30% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.d{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+}
+.d>p{
+    padding-left: 15px;
+    padding-bottom: 15px;
 }

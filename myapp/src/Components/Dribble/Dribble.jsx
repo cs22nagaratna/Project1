@@ -245,7 +245,13 @@ const Dribble=()=>{
                                     <div className="lefti">
                                         <a>Member Dentalica</a>
                                         <div className="day">
-                                            <div className="day1"></div>
+                                            <div className="day1">
+                                            <div className="progress-circle">
+                                                <div className="d">
+                                                    <p>30 <br/>Days</p>
+                                                </div>
+                                            </div>
+                                            </div>
                                             <div className="da">
                                                 <a>Start Date Joined</a><br/>
                                                 <a>12 Des 2023</a>
