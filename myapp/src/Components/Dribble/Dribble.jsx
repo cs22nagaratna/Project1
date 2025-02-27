@@ -31,6 +31,7 @@ import { FaCircle } from "react-icons/fa";
 
 const Dribble=()=>{
     return(
+        <div className="con">
         <div className="container">
             <div className="sub-container">
                 <div className="den">
@@ -345,6 +346,7 @@ const Dribble=()=>{
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
