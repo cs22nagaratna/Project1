@@ -16,7 +16,8 @@ import { CiBookmark } from "react-icons/ci";
 
 export const Hotel=()=>{
     return(
-        <div style={{border:'1px solid black',width:'450px',height:'800px',display:'flex',flexDirection:'column'}}>
+        <div style={{border:'1px solid black',width:'100%',height:'100vh',display:'flex'}}>
+        <div style={{border:'1px solid black',maxwidth:'450px',height:'800px',display:'flex',flexDirection:'column'}}>
             <div style={{flex:'1',display:'flex'}}>
                 <div style={{flex:'1',backgroundColor:'#528d7b',display:'flex',flexDirection:'column'}}>
                     <div style={{flex:'2',display:'flex'}}>
@@ -166,6 +167,7 @@ export const Hotel=()=>{
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
